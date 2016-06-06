@@ -4,6 +4,22 @@ body {
     height: 100%;
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 }
+ul {
+    margin: 0;
+    padding: 0;
+}
+.project-tags {
+        display: inline-block;
+        padding: 5px 8px;
+        margin: 40px 10px 0 0;
+        border-radius: 3px;
+        background-color: #228b22;
+        text-transform: uppercase;
+        font-size: 12px;
+        font-weight: 300;
+        letter-spacing: 1px;
+        color: white;
+    }
 
 a {
     color: #d3d3d3;
@@ -37,7 +53,9 @@ a {
         margin-top: 25px;
         opacity: .94;
     }
-
+#profile {
+    height: 200px;
+}
 
 
 
@@ -266,12 +284,19 @@ header .header-content .header-content-inner p {
 }
 
 .btn-primary {
-    border-color: #d3d3d3;
+    border-color: #868686;
     color: #fff;
-    background-color: #d3d3d3;
+    margin-top: 30px;
+    background-color: #868686;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
+}
+
+.highlight {
+    border-color: #4ea24e;
+    color: #fff;
+    background-color: #4ea24e;
 }
 
 .btn-primary:hover,
