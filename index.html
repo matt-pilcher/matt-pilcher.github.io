@@ -1,9 +1,6 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
-<head>
-
+  <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,6 +10,8 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet">
     <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -20,173 +19,171 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+  </head>
 
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
-    
-</head>
-
-<body>
+  <body>
     <!-- Navigation -->
     <nav id="siteNav" class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container">
-            <!-- Logo -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">
-                	<span class="glyphicon glyphicon-tint"></span> 
-                	Matt Pilcher
-                </a>
-            </div>
-            <!-- Navbar links -->
-            <div class="collapse navbar-collapse" id="navbar">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="active">
-                        <a href="#home" class="smoothScroll anchor">Home</a>
-                    </li>
-                    <li>
-                        <a href="#about" class="smoothScroll">About</a>
-                    </li>
-                    <li>
-                        <a href="#portfolio" class="smoothScroll">Portfolio</a>
-                    </li>
-					
-                    <li>
-                        <a href="#contact" class="smoothScroll anchor">Contact</a>
-                    </li>
-                </ul>
-                
-            </div><!-- /.navbar-collapse -->
+          <!-- Logo -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">
+            	<span class="glyphicon glyphicon-tint"></span> 
+            	Matt Pilcher
+            </a>
+          </div>
+          <!-- Navbar links -->
+          <div class="collapse navbar-collapse" id="navbar">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="active"><a href="#home" class="smoothScroll">Home</a></li>
+              <li><a href="#about" class="smoothScroll">About</a></li>
+              <li><a href="#portfolio" class="smoothScroll">Portfolio</a></li>
+              <li><a href="#contact" class="smoothScroll">Contact</a></li>
+            </ul>
+          </div><!-- /.collapse -->
         </div><!-- /.container -->
     </nav>
 
-	<!-- Header -->
     <header>
-        <div id="home" class="header-content">
-            <div class="header-content-inner">
-                <h1>Web Application Development</h1>
-                <p>Hi, I'm a web developer from Winston-Salem North Carolina. If you're looking to hire, feel free to look through my portfolio or contact me below</p>
-                
-                <a href="#about" class="glyphicon glyphicon-chevron-down down-arrow smoothScroll"></a>
-            </div>
+      <div id="home" class="header-content">
+        <div class="header-content-inner">
+          <h1>Web Application Development</h1>
+          <p>Hi, I'm a web developer from Winston-Salem North Carolina. If you're looking to hire, feel free to look through my portfolio or contact me below</p>
+          
+          <a href="#about" id="down-arrow" class="glyphicon glyphicon-chevron-down smoothScroll"></a>
         </div>
+      </div>
     </header>
 
-	<!-- About Section -->
+    <!-- About Section -->
     <section id="about" class="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                	<span class="glyphicon glyphicon-user" style="font-size: 60px"></span>
-                    <h2 class="section-heading">About</h2>
-                    <p class="text-light">I've just returned to Winston after living abroad for the past few years. I was an SEO content writer 
-                    before becoming a developer. It payed the bills but I knew it was time for a career change when I spent more time improving my portfolio site than
-                    I did writing articles. I'm extremely passionate about web technology and being self-taught, this passion is what keeps me improving everyday.
-                    The majority of my work is uploaded to github and you'll find a link to the source code beside every project below.</p>
-                </div>
-            </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+          	<span class="glyphicon glyphicon-user" style="font-size: 60px"></span>
+
+            <h2 id="about-header">About</h2>
+            <p id="text-light">I've just returned to Winston-Salem after living abroad for the past few years. I was an SEO content writer 
+            before becoming a developer. It payed the bills but I knew it was time for a career change when I spent more time working on my portfolio site than
+            I did writing articles. I'm extremely passionate about web technology and being self-taught, this passion is what keeps me improving everyday.
+            The majority of my work is uploaded to github and you'll find a link to the source code beside every project below.</p>
+          </div>
         </div>
+      </div>
     </section>
 
-	<!-- Portfolio -->
+    <!-- Portfolio Section -->
     <section id="portfolio" class="content">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-5">
-                    <img class="img-responsive center-block" src="images/p4.jpg" alt="">
-                </div>
-                <div class="col-sm-7">
-                	<h2 class="section-header">Socializer</h2>
-                	<p class="text-muted">An image-sharing social network. Connect and stay in contact with friends and family. Built with Behavior-Driven Development approach
-                    using the following tools: RSpec, Capybara, and Factory Girl. </p>
+      <div class="container">
+        <!-- Portfolio Item -->
+        <div class="row">
+          <div class="col-sm-5">
+            <img class="img-responsive center-block" src="images/p4.jpg" alt="Picture of a laptop with a screen showing the site">
+          </div>
 
-                    <a href="#" class="btn btn-primary highlight">View Site</a>
-                    <a href="#" class="btn btn-primary">View Code</a>
-                </div>                
-            </div>
+          <div class="col-sm-7">
+          	<h2 class="section-header">Socializer</h2>
+          	<p class="text-muted">An image-sharing social network. Connect and stay in contact with friends and family. Built with Behavior-Driven Development approach
+              using the following tools: RSpec, Capybara, and Factory Girl.</p>
 
-            <div class="row">
-                <div class="col-sm-5">
-                    <img class="img-responsive center-block" src="images/p1.jpg" alt="">
-                </div>
-                <div class="col-sm-7">
-                    <h2 class="section-header">Film Search</h2>
-                    <p class="text-muted">Quickly find information on any film. Ajax requests are made to the OMDb API and the results are displayed in increments of five when the user scrolls to the bottom of the page.</p>
-                    <a href="#" class="btn btn-primary highlight">View Site</a>
-                    <a href="#" class="btn btn-primary">View Code</a>
-                </div>                
-            </div>
-        </div>
+            <a href="https://rails-projects-mpilcher90.c9users.io/" target="_blank" class="btn btn-primary highlight">View Site</a>
+            <a href="https://github.com/mpilcher90/rails-projects/tree/master/Socializer" target="_blank" class="btn btn-primary">View Code</a>
+          </div>                
+        </div><!-- /.row -->
+        <!-- Portfolio Item -->
+        <div class="row">
+          <div class="col-sm-5">
+            <img class="img-responsive center-block" src="images/p1.jpg" alt="Picture of a laptop with a screen showing the site">
+          </div>
+
+          <div class="col-sm-7">
+            <h2 class="section-header">Film Search</h2>
+            <p class="text-muted">Quickly find information on any film. Ajax requests are made to the OMDb API and the results are displayed in increments of five when the user scrolls to the bottom of the page.</p>
+
+            <a href="#" target="_blank" class="btn btn-primary highlight">View Site</a>
+            <a href="https://github.com/mpilcher90/javascript-projects/tree/master/film-search" target="_blank" class="btn btn-primary">View Code</a>
+          </div>                
+        </div><!-- /.row -->
+      </div><!-- /.container -->
     </section>
     
-	<!-- Footer -->
+    <!-- Footer Section -->
     <footer id="contact" class="page-footer">
-    <div class="container">
-    <div class="row">
-        <div class="col-md-12">
-            <div class="well well-sm test">
-                <form class="form-horizontal" action="https://formspree.io/mpilcher90@gmail.com" method="post">
-                    <fieldset>
-                        <legend class="text-center headerc">Contact</legend>
+      <div class="container">
+        <div class="row">
+          <div id="temp" class="col-md-12 well well-sm">
+            <!-- Contact Form -->
+            <form class="form-horizontal" action="https://formspree.io/mpilcher90@gmail.com" method="post">
+              <fieldset>
+                <legend id="contact-header" class="text-center">Contact</legend>
 
-                        <div class="form-group">
-                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user fa-2x"></i></span>
-                            <div class="col-md-8">
-                                <input id="fname" name="name" type="text" placeholder="First Name" class="form-control">
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user fa-2x"></i></span>
-                            <div class="col-md-8">
-                                <input id="lname" name="name" type="text" placeholder="Last Name" class="form-control">
-                            </div>
-                        </div>
+                <div class="form-group">
+                  <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user fa-2x"></i></span>
 
-                        <div class="form-group">
-                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-o fa-2x"></i></span>
-                            <div class="col-md-8">
-                                <input id="email" name="email" type="text" placeholder="Email" class="form-control">
-                            </div>
-                        </div>
+                  <div class="col-md-8">
+                    <input id="fname" name="name" type="text" placeholder="First Name" class="form-control">
+                  </div>
+                </div>
 
-                        <div class="form-group">
-                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-phone-square fa-2x"></i></span>
-                            <div class="col-md-8">
-                                <input id="phone" name="phone" type="text" placeholder="Phone" class="form-control">
-                            </div>
-                        </div>
+                <div class="form-group">
+                  <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user fa-2x"></i></span>
 
-                        <div class="form-group">
-                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-pencil-square-o fa-2x"></i></span>
-                            <div class="col-md-8">
-                                <textarea class="form-control" id="message" name="message" placeholder="Enter your message here" rows="5"></textarea>
-                            </div>
-                        </div>
+                  <div class="col-md-8">
+                    <input id="lname" name="name" type="text" placeholder="Last Name" class="form-control">
+                  </div>
+                </div>
 
-                        <div class="form-group">
-                            <div class="col-md-12 text-center">
-                                <button type="submit" class="btn submit btn-lg">Send</button>
-                            </div>
-                        </div>
-                    </fieldset>
-                </form>
-            </div>
-        </div>
-    </div>
-</div>
-        <!-- Copyright etc -->
+                <div class="form-group">
+                  <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-o fa-2x"></i></span>
+
+                  <div class="col-md-8">
+                    <input id="email" name="email" type="text" placeholder="Email" class="form-control">
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-phone-square fa-2x"></i></span>
+
+                  <div class="col-md-8">
+                    <input id="phone" name="phone" type="text" placeholder="Phone" class="form-control">
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-pencil-square-o fa-2x"></i></span>
+
+                  <div class="col-md-8">
+                    <textarea class="form-control" id="message" name="message" placeholder="Enter your message here" rows="5"></textarea>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <div class="col-md-12 text-center">
+                      <button type="submit" class="btn submit btn-lg">Send</button>
+                  </div>
+                </div>
+                <!-- This field helps avoid spam. If a value is provided, the submission is ignored -->
+                <div class="form-group">
+                  <input type="text" name="_gotcha" style="display:none">
+                </div>
+              </fieldset>
+            </form>
+          </div><!-- /.col -->
+        </div><!-- /.row -->
+        <!-- Copyright -->
         <div class="small-print">
-        	<div class="container">
-        		<p>Copyright &copy; mattpilcher.com 2016</p>
-        	</div>
+          <div class="container">
+            <p>Copyright &copy; mattpilcher.com 2016</p>
+          </div>
         </div>
-        
+      </div><!-- /.container -->
     </footer>
 
     <!-- jQuery -->
@@ -199,7 +196,5 @@
     <!-- Custom Javascript -->
     <script src="js/custom.js"></script>
     <script src="js/smoothscroll.js"></script>
-
-</body>
-
+  </body>
 </html>
