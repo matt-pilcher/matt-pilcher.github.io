@@ -9,7 +9,8 @@ $('#siteNav').affix({
 /* Hosting this site on github pages so no backend. Formspree is great
 for contact forms on static sites but the default behavior redirects to
 their site after submitting the form. This will keep users on the site. 
-*/
+
+Currently not sending the data
 
 var $contactForm = $('#contactform');
 $contactForm.submit(function(e) {
@@ -36,3 +37,5 @@ $contactForm.submit(function(e) {
 		}
 	});
 });
+
+*/
