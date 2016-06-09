@@ -310,3 +310,27 @@ ul {
   color: #fff;
 	font-weight: 300;
 }
+
+/*
+  ========================================
+  Thankyou Page
+  ========================================
+*/
+
+.thanks {
+  background-position: center;
+  background-image: url('../images/thanks.jpg'); 
+  background-size: cover;
+  height: auto;
+  left: 0;
+  min-height: 100%;
+  min-width: 100%;
+  position: absolute;
+  top: 0;
+  width: auto;
+}
+.thanks .message {
+  background: #fff;
+  padding: 0 0 10px 0;
+  opacity: .74;
+}
