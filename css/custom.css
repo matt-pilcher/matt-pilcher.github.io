@@ -37,6 +37,8 @@ p {
   background-color: #ff9900;
 }
 
+/*  Removing the hover style for now
+
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary.focus,
@@ -46,7 +48,10 @@ p {
   border-color: #ff9900;
   color: #fff;
   background-color: #ff9900;
-}
+} 
+
+*/
+
 .btn {
   border-radius: 300px;
   text-transform: uppercase;
@@ -166,6 +171,11 @@ header .header-content .header-content-inner p {
 .navbar-default .nav > li.active>a:hover,
 .navbar-default .nav>li.active>a:focus:hover {
   background-color: transparent;
+}
+
+.navbar-brand {
+  color: #290f28 !important;
+  letter-spacing: 0.5em;
 }
 
 a {
